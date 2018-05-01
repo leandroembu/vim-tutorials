@@ -1,0 +1,25 @@
+Alguns comandos do Linux
+
+Para listar os discos e partições, execute o comando:
+$ lsblk
+
+A saída será a seguinte:
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sda      8:0    0 149,1G  0 disk 
+├─sda1   8:1    0 255,6M  0 part /boot
+├─sda2   8:2    0     2G  0 part [SWAP]
+└─sda3   8:3    0 146,8G  0 part /
+sr0     11:0    1  1024M  0 rom  
+
+
+Para verificar o consumo de memória, execute o comando:
+$ free -h
+
+A saída será a seguinte:
+              total       usada       livre    compart.  buff/cache  disponível
+Mem.:         1,9Gi       648Mi       449Mi        71Mi       888Mi       1,1Gi
+Swap:         2,0Gi       7,0Mi       2,0Gi
+
+
+Para personalizar o seu editor Vim, basta editar o arquivo (.vimrc)
+e colocar as suas opções.
